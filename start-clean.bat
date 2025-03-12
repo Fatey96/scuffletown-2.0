@@ -1,0 +1,6 @@
+@echo off
+echo Cleaning Next.js build directory...
+if exist .next rmdir /s /q .next
+
+echo Starting Next.js development server...
+npm run dev 
